@@ -6,7 +6,7 @@ void setup() {
   size(800, 500);
   values = new float[width];
   for (int i = 0; i < values.length; i++) {
-    values[i] = noise(i/120.0)*height;
+    values[i] = random(height);
   }
 }
 
